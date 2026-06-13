@@ -264,7 +264,7 @@
                                 <th x-show="columns.col_code_module" class="px-6 py-4 text-xs font-bold text-gray-500 uppercase tracking-wider whitespace-nowrap">
                                     Code Module
                                 </th>
-                                <th x-show="columns.col_module_name" class="px-6 py-4 text-xs font-bold text-gray-500 uppercase tracking-wider w-1/4">
+                                <th x-show="columns.col_module_name" class="px-6 py-4 text-xs font-bold text-gray-500 uppercase tracking-wider whitespace-nowrap">
                                     Nom Module
                                 </th>
                                 <th x-show="columns.col_regional" class="px-6 py-4 text-xs font-bold text-gray-500 uppercase tracking-wider whitespace-nowrap">
@@ -392,7 +392,7 @@
 
                                     <!-- Nom Module -->
                                     <td x-show="columns.col_module_name" class="px-6 py-4">
-                                        <div class="max-w-[300px] truncate" title="{{ $aff->module->name ?? '' }}">
+                                        <div class="max-w-[180px] truncate" title="{{ $aff->module->name ?? '' }}">
                                             <span class="text-sm text-gray-900 font-medium">{{ $aff->module->name ?? 'N/A' }}</span>
                                         </div>
                                     </td>
